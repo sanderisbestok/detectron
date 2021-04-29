@@ -1,3 +1,7 @@
+Dit lezen voor andere dataset en niet deze implementatie gebruiken:
+https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5#scrollTo=7unkuuiqLdqd
+
+
 To install:
 
 * conda install -c conda-forge opencv
