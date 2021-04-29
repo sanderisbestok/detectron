@@ -7,14 +7,13 @@ To install:
 * python -m pip install -e .
 
 To use:
-conda activate detectron \
 module load 2020 \
 module load CUDA/11.0.2-GCC-9.3.0 \
 module load OpenCV/4.5.0-fosscuda-2020a-Python-3.8.2
-
+conda activate detectron \
 
 Demo Commando:
-python demo.py --config-file ../projects/TridentNet/configs/tridentnet_fast_R_101_C4_3x.yaml --input ~/Downloads/download.jpeg --opts MODEL.WEIGHTS ~/Downloads/model_final_164568.pkl MODEL.DEVICE cpu
+python demo.py --config-file ../projects/TridentNet/configs/tridentnet_fast_R_101_C4_3x.yaml --input ../../../download.jpeg --opts MODEL.WEIGHTS ../pretrained/tridentnet.pkl
 
 
 
