@@ -1,5 +1,6 @@
 To install:
 
+* conda install -c conda-forge opencv
 * pip3 install torch torchvision torchaudio
 * module load 2020
 * module load CUDA/11.0.2-GCC-9.3.0
