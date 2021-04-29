@@ -1,3 +1,12 @@
+
+
+
+Demo Commando:
+python demo.py --config-file ../projects/TridentNet/configs/tridentnet_fast_R_101_C4_3x.yaml --input ~/Downloads/download.jpeg --opts MODEL.WEIGHTS ~/Downloads/model_final_164568.pkl MODEL.DEVICE cpu
+
+
+
+
 <img src=".github/Detectron2-Logo-Horz.svg" width="300" >
 
 Detectron2 is Facebook AI Research's next generation library
