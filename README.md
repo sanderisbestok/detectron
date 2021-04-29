@@ -1,4 +1,7 @@
+To install:
 
+pip3 install torch torchvision torchaudio
+python -m pip install -e .
 
 
 Demo Commando:
