@@ -1,7 +1,9 @@
 To install:
 
-pip3 install torch torchvision torchaudio
-python -m pip install -e .
+* pip3 install torch torchvision torchaudio
+* module load 2020
+* module load CUDA/11.0.2-GCC-9.3.0
+* python -m pip install -e .
 
 
 Demo Commando:
