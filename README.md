@@ -6,6 +6,9 @@ To install:
 * module load CUDA/11.0.2-GCC-9.3.0
 * python -m pip install -e .
 
+To use:
+module load OpenCV/4.5.0-fosscuda-2020a-Python-3.8.2
+
 
 Demo Commando:
 python demo.py --config-file ../projects/TridentNet/configs/tridentnet_fast_R_101_C4_3x.yaml --input ~/Downloads/download.jpeg --opts MODEL.WEIGHTS ~/Downloads/model_final_164568.pkl MODEL.DEVICE cpu
