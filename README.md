@@ -7,6 +7,9 @@ To install:
 * python -m pip install -e .
 
 To use:
+conda activate detectron \
+module load 2020 \
+module load CUDA/11.0.2-GCC-9.3.0 \
 module load OpenCV/4.5.0-fosscuda-2020a-Python-3.8.2
 
 
