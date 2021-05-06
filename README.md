@@ -22,6 +22,14 @@ python demo.py --config-file ../projects/TridentNet/configs/tridentnet_fast_R_10
 train_trident.py gebruiken\
 python train_trident.py --num-gpus 2
 
+results zijn categorie + bbox + score
+for instance in prediction["instances"]:
+    txt.append([0] + instance["bbox"] + instance["score"])
+    print(txt)
+    
+code te vinden in 
+detectron2/evaluation/cocoevaluation
+
 
 
 
