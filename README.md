@@ -19,7 +19,9 @@ conda activate detectron \
 Demo Commando:
 python demo.py --config-file ../projects/TridentNet/configs/tridentnet_fast_R_101_C4_3x.yaml --input ../../../download.jpeg --opts MODEL.WEIGHTS ../pretrained/tridentnet.pkl
 
-train_trident.py gebruiken
+train_trident.py gebruiken\
+python train_trident.py --num-gpus 2
+
 
 
 
